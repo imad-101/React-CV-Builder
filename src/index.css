@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #6ea1bc;
+  background-image: linear-gradient(#d1d5db 1px, transparent 1px),
+    linear-gradient(90deg, #d1d5db 1px, transparent 1px);
+  background-size: 20px 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+input {
+  border-radius: 5px;
+  padding: 8px;
+}
